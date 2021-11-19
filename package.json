@@ -10,7 +10,7 @@
     "publish": "lerna publish",
     "test:integration": "jest test/integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "postpack": "lerna publish from-package --yes --no-verify-access",
+    "postpack": "cat packages/ogma/package.json && lerna publish from-package --yes --no-verify-access",
     "postversion": "sync_versions"
   },
   "devDependencies": {
