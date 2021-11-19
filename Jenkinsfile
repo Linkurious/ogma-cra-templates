@@ -1,4 +1,4 @@
-@Library('linkurious-shared')_
+@Library('linkurious-shared@feature/subpackage-release')_
 
 nodeJob {
   // General
