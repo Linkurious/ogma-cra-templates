@@ -10,7 +10,7 @@
     "publish": "lerna publish",
     "test:integration": "jest test/integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "postpublish": "lerna publish -y from-package --access public",
+    "postpack": "lerna publish -y from-package",
     "postversion": "sync_versions"
   },
   "devDependencies": {
@@ -44,5 +44,5 @@
     "access": "public"
   },
   "name": "@linkurious/ogma-cra-templates",
-  "version": "0.0.3"
+  "version": "0.0.4-alpha.1"
 }
