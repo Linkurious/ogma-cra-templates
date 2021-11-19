@@ -1,0 +1,36 @@
+{
+  "name": "@linkurious/cra-template-ogma",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "ogma"
+  ],
+  "description": "Base template for Create React App + Ogma.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/create-react-app.git",
+    "directory": "packages/ogma"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "pack": "npm pack"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "postinstall.js",
+    "template",
+    "template.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

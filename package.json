@@ -1,0 +1,45 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Linkurious/ogma-cra-templates.git"
+  },
+  "scripts": {
+    "publish": "lerna publish",
+    "test:integration": "jest test/integration",
+    "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
+    "postpublish": "lerna publish -y from-package",
+    "postversion": "sync_versions"
+  },
+  "devDependencies": {
+    "@linkurious/code-tools": "0.0.4",
+    "eslint": "^7.30.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^9.0.1",
+    "get-port": "^5.1.1",
+    "globby": "^11.0.1",
+    "husky": "^4.3.0",
+    "jest": "^27.1.0",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "~2.2.0",
+    "lint-staged": "^10.4.2",
+    "meow": "^6.1.1",
+    "multimatch": "^4.0.0",
+    "prettier": "^2.1.2",
+    "puppeteer": "^3.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
+      "prettier --write"
+    ]
+  },
+  "name": "@linkurious/ogma-cra-templates",
+  "version": "0.0.1"
+}

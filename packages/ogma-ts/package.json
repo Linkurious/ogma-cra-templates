@@ -1,0 +1,40 @@
+{
+  "name": "@linkurious/cra-template-ogma-ts",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "ogma"
+  ],
+  "description": "TypeScript template for Create React App + Ogma.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkurious/cra-template-ogma.git",
+    "directory": "packages/ogma-ts"
+  },
+  "devDependencies": {
+    "semver": "7.3.5"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "pack": "npm pack"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/linkurious/cra-template-ogma/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "postinstall.js",
+    "template",
+    "template.json"
+  ]
+}

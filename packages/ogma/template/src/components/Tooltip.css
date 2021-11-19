@@ -1,0 +1,33 @@
+/** Tooltip styling */
+.tooltip {
+  position: absolute;
+  display: inline-block;
+}
+
+.tooltip .tooltip-content {
+  z-index: 99999;
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.8rem;
+  color: #4a4a4a;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  max-width: 24rem;
+}
+
+.tooltip .tooltip-content {
+  top: auto;
+  bottom: 100%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -0.7rem);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
