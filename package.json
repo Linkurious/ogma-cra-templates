@@ -9,7 +9,7 @@
   "scripts": {
     "test:integration": "jest test/integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "prepack": "git diff packages && lerna publish from-package --yes --no-verify-access",
+    "prepack": "lerna publish from-package --yes --no-verify-access",
     "postversion": "sync_versions"
   },
   "devDependencies": {
