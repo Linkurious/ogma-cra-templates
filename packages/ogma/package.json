@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "react",
     "create-react-app",
@@ -10,7 +10,7 @@
   "description": "Base template for Create React App + Ogma.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/linkurious/ogma-cra-templates.git",
     "directory": "packages/ogma"
   },
   "scripts": {
@@ -22,7 +22,7 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/linkurious/ogma-cra-templates/issues"
   },
   "files": [
     "postinstall.js",

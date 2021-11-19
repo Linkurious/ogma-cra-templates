@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,7 +11,7 @@
   "description": "TypeScript template for Create React App + Ogma.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linkurious/cra-template-ogma.git",
+    "url": "https://github.com/linkurious/ogma-cra-templates.git",
     "directory": "packages/ogma-ts"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/linkurious/cra-template-ogma/issues"
+    "url": "https://github.com/linkurious/ogma-cra-templates/issues"
   },
   "publishConfig": {
     "access": "public",
