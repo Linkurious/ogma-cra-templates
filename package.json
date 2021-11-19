@@ -7,7 +7,6 @@
     "url": "https://github.com/Linkurious/ogma-cra-templates.git"
   },
   "scripts": {
-    "publish": "lerna publish",
     "test:integration": "jest test/integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
     "postpack": "cat packages/ogma/package.json && lerna publish from-package --yes --no-verify-access",
