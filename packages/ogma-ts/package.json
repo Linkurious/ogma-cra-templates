@@ -28,8 +28,7 @@
     "url": "https://github.com/linkurious/ogma-cra-templates/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   },
   "private": false,
   "files": [
