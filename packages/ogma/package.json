@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "react",
     "create-react-app",
@@ -14,8 +14,7 @@
     "directory": "packages/ogma"
   },
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "pack": "npm pack"
+    "postinstall": "node postinstall.js"
   },
   "license": "MIT",
   "engines": {
@@ -31,7 +30,6 @@
   ],
   "private": false,
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   }
 }
