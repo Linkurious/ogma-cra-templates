@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test:integration": "jest test/integration",
+    "test:ci": "npm run test:integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
     "publishSubPackages": "lerna publish from-package --yes --no-verify-access",
     "postversion": "sync_versions"
@@ -43,5 +44,5 @@
     "access": "public"
   },
   "name": "@linkurious/ogma-cra-templates",
-  "version": "0.0.5"
+  "version": "0.0.6"
 }

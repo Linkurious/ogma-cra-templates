@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "react",
     "create-react-app",
@@ -18,8 +18,7 @@
     "semver": "7.3.5"
   },
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "pack": "npm pack"
+    "postinstall": "node postinstall.js"
   },
   "license": "MIT",
   "engines": {
