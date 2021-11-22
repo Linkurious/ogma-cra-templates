@@ -20,23 +20,11 @@ beforeEach(() => remove(genPath));
 afterAll(() => remove(genPath));
 
 const run = (args, options) => {
-  // console.log(
-  //   'npx',
-  //   ['create-react-app'].concat(args).concat(['--use-npm']).join(' ')
-  // );
-  const child = execa(
+  return execa(
     'npx',
     ['create-react-app'].concat(args).concat(['--use-npm']),
     options
   );
-  child.stdout.on('data', data => {
-    if (data.toString().indexOf('Ogma') !== -1) {
-      // TODO: update it to "latest" when our npm would work
-      child.stdin.write('4.0.4');
-      child.stdin.write('\n');
-    }
-  });
-  return child;
 };
 
 const genFileExists = f => existsSync(join(genPath, f));
@@ -52,11 +40,6 @@ describe('create-react-app', () => {
 
     // Assert for exit code
     expect(code).toBe(0);
-
-    // // Assert for the generated files
-    // [...generatedFiles, 'tsconfig.json'].forEach(file =>
-    //   expect(genFileExists(file)).toBeTruthy()
-    // );
   });
 
   it('creates an Ogma project based on the typescript template', async () => {

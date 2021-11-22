@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "keywords": [
     "react",
     "create-react-app",
@@ -13,9 +13,6 @@
     "url": "https://github.com/linkurious/ogma-cra-templates.git",
     "directory": "packages/ogma"
   },
-  "scripts": {
-    "postinstall": "node postinstall.js"
-  },
   "license": "MIT",
   "engines": {
     "node": ">=14"
@@ -24,7 +21,6 @@
     "url": "https://github.com/linkurious/ogma-cra-templates/issues"
   },
   "files": [
-    "postinstall.js",
     "template",
     "template.json"
   ],
