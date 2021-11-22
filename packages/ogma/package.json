@@ -1,10 +1,6 @@
 {
   "name": "@linkurious/cra-template-ogma",
-<<<<<<< HEAD
-  "version": "0.0.2",
-=======
   "version": "0.0.3",
->>>>>>> 9993fe2d3a4877595ea0988cfca0763349ca8a7c
   "keywords": [
     "react",
     "create-react-app",
