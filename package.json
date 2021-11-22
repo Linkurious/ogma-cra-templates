@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test:integration": "jest test/integration",
-    "test:ci": "npm run test:integration",
+    "e2e:test": "npm run test:integration",
     "format": "prettier --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
     "publishSubPackages": "lerna publish from-package --yes --no-verify-access",
     "postversion": "sync_versions"
