@@ -6,7 +6,7 @@ nodeJob {
   createGitTag = true
   gitTagPrefix = 'v'
   runBookeeping = false
-  runUnitTests = true
+  runUnitTests = false
   runNpmPublish = true
   runForwardMerge = false
 }
