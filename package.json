@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/Linkurious/ogma-cra-templates.git"
   },
+  "engines": {
+    "node": "16.18.0",
+    "npm": "8.19.2"
+  },
   "scripts": {
     "test:integration": "jest test/integration",
     "e2e:test": "npm run test:integration",
