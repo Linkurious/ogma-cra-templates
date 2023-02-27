@@ -7,8 +7,7 @@
     "url": "https://github.com/Linkurious/ogma-cra-templates.git"
   },
   "engines": {
-    "node": "16.18.0",
-    "npm": "8.19.2"
+    "node": "18.13.0"
   },
   "scripts": {
     "test:integration": "jest test/integration",
@@ -18,7 +17,7 @@
     "postversion": "sync_versions"
   },
   "devDependencies": {
-    "@linkurious/code-tools": "0.0.4",
+    "@linkurious/code-tools": "0.0.12",
     "eslint": "^7.30.0",
     "execa": "^1.0.0",
     "fs-extra": "^9.0.1",
