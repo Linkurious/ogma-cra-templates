@@ -10,4 +10,6 @@ nodeJob {
   runUnitTests = true
   runNpmPublish = true
   runForwardMerge = false
+  podTemplateNames = ['jnlp-agent-node']
+  runDependencyVersionCheck = false
 }
