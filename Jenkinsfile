@@ -3,10 +3,13 @@
 nodeJob {
   // General
   projectName = "linkurious/ogma-cra-templates"
+  podTemplateNames = ['jnlp-agent-node']
   createGitTag = true
   gitTagPrefix = 'v'
   runBookeeping = false
-  runUnitTests = false
+  runUnitTests = true
   runNpmPublish = true
   runForwardMerge = false
+  podTemplateNames = ['jnlp-agent-node']
+  runDependencyVersionCheck = false
 }
