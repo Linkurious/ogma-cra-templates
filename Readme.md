@@ -1,5 +1,7 @@
 # [Ogma](https://ogma.linkurio.us) + `create-react-app` templates
 
+## ⚠️ Note: This project is no longer maintained, use [`@linkurious/ogma-react`](https://github.com/linkurious/ogma-react) instead
+
 In this repository we have a couple of templates for [Ogma](https://ogma.linkurio.us) + `create-react-app`:
 
 ## Usage
