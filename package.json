@@ -17,7 +17,7 @@
     "postversion": "sync_versions"
   },
   "devDependencies": {
-    "@linkurious/code-tools": "0.0.4",
+    "@linkurious/code-tools": "0.0.14",
     "eslint": "^7.30.0",
     "execa": "^1.0.0",
     "fs-extra": "^9.0.1",
