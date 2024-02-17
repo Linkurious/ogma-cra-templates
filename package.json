@@ -7,7 +7,7 @@
     "url": "https://github.com/Linkurious/ogma-cra-templates.git"
   },
   "engines": {
-    "node": "18.14.2"
+    "node": "18.19.1"
   },
   "scripts": {
     "test:integration": "jest test/integration",
